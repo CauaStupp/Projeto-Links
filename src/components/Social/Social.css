@@ -1,0 +1,13 @@
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.social svg {
+    transition: 0.2s all;
+    margin: 10px 15px;
+}
+
+.social svg:hover {
+    transform: scale(1.06);
+}

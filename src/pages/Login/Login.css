@@ -1,0 +1,31 @@
+.container-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.container-login-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 30px;
+}
+
+.container-login-form button {
+    height: 40px;
+    border-radius: 5px; 
+    background-color: #4444fd;
+    border: 0;
+    font-size: 1rem;
+    color: white;
+    font-weight: 700;
+    transition: 0.2s all;
+}
+
+.container-login-form button:hover {
+    background-color: #3232bb;
+}

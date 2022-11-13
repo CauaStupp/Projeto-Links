@@ -1,0 +1,41 @@
+.header {
+    width: 100%;
+    max-width: 720px;
+    margin-top: 15px;
+    padding: 0px 15px;
+}
+
+.header-nav {
+    width: 100%;
+    background-color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.header-nav button {
+    border: 0;
+    background-color: transparent;
+    margin-right: 40px;
+    margin-left: 10px;
+    border-radius: 5px;
+    transition: 0.2s all;
+    padding: 5px;
+}
+
+.header-nav button:hover {
+    background-color: #d8d8d844;
+    color: red;
+}
+
+.header-nav a {
+    color: black;
+    margin-right: 15px;
+    transition: 0.2s color;
+}
+
+.header-nav a:hover {
+    color: #bdbdbd;
+}
+

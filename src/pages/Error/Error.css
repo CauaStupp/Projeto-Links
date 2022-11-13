@@ -1,0 +1,33 @@
+.container-error {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.container-error h1 {
+    font-size: 1.8rem;
+    margin-top: 10px;
+    margin-bottom: 0.5rem;
+}
+
+.container-error p {
+    font-style: italic;
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+}
+
+.container-error-link {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    transition: 0.2s all;
+}
+
+.container-error-link:hover {
+    background-color: #e4e4e4;
+    transition: 0.2s all;
+}
